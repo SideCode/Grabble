@@ -1,3 +1,4 @@
-Dependencies: libsdl-dev1.2
+Updated for SDL2.
+Exploration of C.
 
 Arrow keys to move around.
