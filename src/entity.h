@@ -12,9 +12,9 @@
 */
 struct WorldEntity_
 {
-	uint8_t thoughts_l, interactions_l,input;
-	Thought thoughts[16];
-	Interaction interactions[16];
+  uint8_t thoughts_l, interactions_l, input;
+  Thought thoughts[16];
+  Interaction interactions[16];
 };
 
 /*
@@ -25,9 +25,9 @@ struct WorldEntity_
 */
 struct Entity_
 {
-	float x, y;
-	int16_t xV, yV;
-	uint16_t w, h, ss[6];
+  float x, y;
+  int16_t xV, yV;
+  uint16_t w, h, ss[6];
 };
 
 
