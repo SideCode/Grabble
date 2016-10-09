@@ -73,8 +73,7 @@ uint8_t create_PostInteraction(WorldEntity* wE, Entity* e, Entity* o, void(*i)(W
 }
 
 /*
- These destroy functions are made with the assumption that the programmer is not brain-dead.
- (SO DONT TRY TO DESTROY ENTITIES THAT HAVE ALREADY BEEN DESTROYED. KTHX)
+ Unsafe frees
 */
 void destroy_Entity(WorldEntity* wE, Entity* e)
 {
